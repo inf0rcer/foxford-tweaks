@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Messages
 // @namespace    https://github.com/skhrvg/foxford-tweaks
-// @version      1.0
+// @version      1.1
 // @description  Шаблоны сообщений для быстрой отправки
 // @author       skhrvg
-// @match        https://foxford.webinar.netology-group.services/*
+// @match        https://*.webinar.netology-group.services/*
 // @grant        none
 // @updateURL    https://github.com/skhrvg/foxford-tweaks/raw/main/Messages.user.js
 // @downloadURL  https://github.com/skhrvg/foxford-tweaks/raw/main/Messages.user.js
@@ -39,7 +39,7 @@
         let messages = document.createElement("div");
         tweak.id = "messages-tweak";
         tweak.setAttribute("class", "draggable");
-        header.innerHTML = "Messages v1.0"
+        header.innerHTML = "Messages v1.1"
         header.setAttribute("class", "header");
         tweak.appendChild(header);
         messages.setAttribute("class", "messages");

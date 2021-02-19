@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Mentions
 // @namespace    https://github.com/skhrvg/foxford-tweaks
-// @version      1.2
+// @version      1.3
 // @description  Упоминания пользователей в чате Фоксфорда
 // @author       skhrvg
-// @match        https://foxford.webinar.netology-group.services/*
+// @match        https://*.webinar.netology-group.services/*
 // @grant        none
 // @updateURL    https://github.com/skhrvg/foxford-tweaks/raw/main/Mentions.user.js
 // @downloadURL  https://github.com/skhrvg/foxford-tweaks/raw/main/Mentions.user.js
@@ -60,7 +60,7 @@
         tweak.setAttribute("href", "https://github.com/skhrvg/foxford-tweaks");
         tweak.setAttribute("target", "_blank");
         tweak.setAttribute("title", "Подключен скрипт Tampermonkey для упоминания пользователей в чате Фоксфорда.");
-        tweak.innerHTML = "Mentions v1.2";
+        tweak.innerHTML = "Mentions v1.3";
         container.appendChild(tweak);
     }
 })();
